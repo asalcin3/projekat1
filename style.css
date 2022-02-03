@@ -198,3 +198,154 @@ footer a{
     align-items: flex-start;
     margin-bottom: 20px;
 }
+/* Shop page */
+#produkt1{
+ text-align: center;   
+
+}
+.pro-kontainer{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+
+#produkt1 .pro{
+    width:23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid #cce7d0;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0,0,0,0.02);
+    margin: 15px 0;
+    transition: 0.2s ease;
+    position: relative; /*svaki pt kad korisitmo position absolute u čajldu, onda u parent elementu mora biti position relativw*/
+   }
+
+   #produkt1 .pro:hover{
+    box-shadow: 20px 20px 30px rgba(0,0,0,0.06);
+   }
+
+   #produkt1 .pro img{
+       width:100%;
+       border-radius: 20px;
+   }
+
+   #produkt1 .pro .des{
+       text-align: start;
+       padding: 10px 0;
+
+   }
+
+   
+   #produkt1 .pro .des span{
+        color: #606063;
+        font-size: 12px;
+   }
+
+   #produkt1 .pro .des h5{
+       padding-top: 7px;
+       color: #1a1a1a;
+       font-size: 14px;
+   }
+
+   #produkt1 .pro .des i{
+       font-size: 12px;
+       color: rgb(243,181,25);
+   }
+
+   #produkt1 .pro .des h4{
+    padding-top: 7px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #088178;
+}
+
+#produkt1 .pro .cart{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    background-color: #e8f6ae;
+    font-weight: 500;
+    color: #088178;
+    border-color: 1px solid  #c3ce96;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+}
+
+#pagination{
+ text-align: center;
+}
+#pagination a{
+    text-decoration: none;
+    background-color: #088178;
+    padding:15px 20px;
+    border-radius: 4px;
+    color: white;
+
+   }
+
+   #pagination a i{
+       font-size: 16px;
+       font-weight: 600;
+   }
+
+   /* single product*/
+   #prodetails{
+       display: flex;
+       margin-top:20px;
+
+   }
+   #prodetails .single-pro-details{
+       width: 50%;
+       padding-top: 30px;
+   }
+
+   #prodetails  h4{
+       padding: 40px 0 20px 0;
+   }
+
+   #prodetails  h2{
+    font-size: 20px;
+    
+}
+
+#prodetails .single-pro-details select{
+    display: block;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+
+#prodetails input{
+    width:50px;
+    height:36px;
+    padding-left:10px;
+    padding-top: 5px;
+    font-size:16px;
+    margin-right: 10px;
+}
+ button {
+    background-color:  #088178;
+    color: white;
+
+
+}
+
+   #prodetails .single-pro-image{
+       width:40%;
+       margin-right: 50px;
+
+   }
+
+.small-img-group{
+    display: flex;
+    justify-content: space-between;
+}
+
+.small-img-col{
+    flex-basis: 20%;
+    cursor:pointer;
+}
